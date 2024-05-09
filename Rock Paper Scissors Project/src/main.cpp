@@ -102,7 +102,7 @@ void score() {
 		cout << "You are winning!! Keep it up!\n";
 		cout << "-----------------------------------\n\n";
 	}
-	else if (userScore > aiScore) {
+	else if (userScore < aiScore) {
 		Sleep(500);
 		cout << "You are losing. :(\n";
 		cout << "-----------------------------------\n\n";
